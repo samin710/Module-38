@@ -1,9 +1,8 @@
-export default function Books({booksList}) {
+export default function Books({ book }) {
   return (
-    <div>
-      <h1>My Books Store</h1>
-      <p>Books collection: {booksList.length}</p>
-      <p>Book name:  </p>
+    <div className="student">
+      <h1>{book.sub}</h1>
+      <h3>Price: {book.price}</h3>
     </div>
   );
 }
